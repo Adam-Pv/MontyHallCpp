@@ -17,10 +17,13 @@ int main() {
 
        if (pick == prize) {     // first pick was correct
             firstPick++;
-       } else {                 // if first pick was wrong, changing will always be correct
+       } else {                 // else, changing will always be correct
             changedPick++;
        }
   }
+
+  /*  Displays how many times contestant would be correct
+      if they stayed vs if they changed.*/
   cout << "first pick : " << firstPick << endl;
   cout << "changed pick : " << changedPick << endl;
 
